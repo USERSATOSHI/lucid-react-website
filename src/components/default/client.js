@@ -14,8 +14,8 @@ let client = Innertube.create({
 
         // transform the url for use with our proxy
         url.searchParams.set("__host", url.host);
-        url.host = "localhost:5000";
-        url.protocol = "http";
+        url.host = "lucid-proxyserver.deno.dev";
+        url.protocol = "https";
 
         const headers = init?.headers
             ? new Headers(init.headers)
