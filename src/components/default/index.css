@@ -1,0 +1,11 @@
+:root {
+    --color1:#07070a;
+    --color2: #24272b;
+    --color3:#fbfef9;
+    --color4:#5358e4;
+    --color5:#ba336a;
+}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&display=swap');
+* {
+ font-family: 'JetBrains Mono', monospace;
+}

@@ -1,0 +1,107 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 75%;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    gap: 50px;
+    position: relative;
+    transition: 500ms;
+    color: var(--color3);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item .song-logo {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.item .song-logo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.item .song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.item .song-info .song-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    cursor: pointer;
+}
+
+.item .song-info .song-views {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.item .song-info .song-duration {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.item .song-info .song-author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.item .song-info .song-author .author-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* margin: 0 0.5rem; */
+}
+
+.item .song-info .song-author .author-logo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.item .song-info .song-author .author-name {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.item .playButton {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color5);
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: var(--color3);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .playButton .icon {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 50px;
+}

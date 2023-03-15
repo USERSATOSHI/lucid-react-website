@@ -1,0 +1,19 @@
+.App {
+    background-color: var(--color2);
+    width:100%;
+    min-height:100vh;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    margin-bottom: 96px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

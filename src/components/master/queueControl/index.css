@@ -1,0 +1,43 @@
+.drawer {
+    width:512px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:32px;
+    margin-top: 32px;
+}
+
+.closeBtn {
+    width:512px;
+    height:32px;
+    padding-top:16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--color1);
+    color:var(--color3);
+    transition: 250ms ease-in-out;
+}
+
+.closeBtn:hover {
+    background-color: var(--color2);
+    color:var(--color4);
+    transform: scale(1.1);
+}
+
+.queueControl {
+    width:160px;
+    height:64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.draw {
+    overflow-x: hidden;
+}
